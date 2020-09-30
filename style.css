@@ -5,7 +5,22 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: black;
+}
+
+input {
+  width: 100%;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #fff;
 }
 
 .title {
@@ -64,4 +79,11 @@ input::placeholder {
 
 .by {
   font-size: 20px;
+}
+
+.github__icon {
+  font-size: 40px;
+}
+.github__label {
+  font-size: 40px;
 }
